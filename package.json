@@ -5,14 +5,14 @@
   "files": [
     "src"
   ],
-  "main": "",
-  "types": "src/index.d.ts",
+  "main": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:jonyw4/pagarme-js-types.git",
   "author": "Jonathan Célio <jonathan.clio@hotmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc --declaration",
+    "build": "tsc --declaration --emitDeclarationOnly",
     "lint": "eslint --ext .ts,.tsx",
     "lint:fix": "eslint --ext .ts,.tsx --fix"
   },

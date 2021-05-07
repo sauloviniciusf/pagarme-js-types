@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es2017",
     "newLine": "LF",
-    "outDir": "./lib",
+    "outDir": "./dist",
   },
   "files": [
     "src/index.ts"
